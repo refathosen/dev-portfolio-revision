@@ -17,17 +17,17 @@ body {
   padding: 15px 35px;
 }
 
-.section-title{
+.section-title {
   color: rgb(24, 24, 24);
-font-size: 35px;
-font-weight: 700;
-text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
 }
-.section-description{
+.section-description {
   color: rgb(117, 117, 117);
-font-size: 18px;
-font-weight: 400;
-text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
 }
 
 /* nav related styles */
@@ -93,9 +93,12 @@ nav a {
 }
 /* main section styles */
 
-main{
+main {
   max-width: 1140px;
   margin: 0 auto;
+}
+main section {
+  margin-top: 130px;
 }
 
 /*  about section styles  */
@@ -107,10 +110,91 @@ main{
   margin: 130px 0;
 }
 
-.about-info-container{
+.about-info-container {
   display: flex;
-  justify-content: space-around
+  justify-content: space-around;
 }
-.about-info-container .about-info{
+.about-info-container .about-info {
   text-align: center;
+}
+
+/* what i do section styles */
+
+#what-i-do-description {
+  padding: 30px 150px;
+}
+
+.skills-container {
+  display: flex;
+  gap: 24px;
+}
+.skill {
+  padding: 30px;
+  gap: 24px;
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  background: rgb(255, 255, 255);
+}
+.skill-description {
+  color: #757575;
+}
+
+/* resume section styles */
+.resume-column-title {
+  font-size: 30px;
+  font-weight: 700;
+  color: #474747;
+}
+.resume-container {
+  display: flex;
+  gap: 44px;
+}
+.resume-item-title {
+  color: rgb(71, 71, 71);
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.resume-item-institute {
+  color: rgb(117, 117, 117);
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+.resume-item-description {
+  color: rgb(117, 117, 117);
+  font-size: 16px;
+  font-weight: 400;
+}
+.download-cv {
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+/* footer styles */
+.footer{
+  background: rgb(255, 248, 243);
+  display: flex;
+  padding: 130px 200px;
+  margin-top: 100px;
+  gap: 100px;
+}
+.footer-column{
+  width: 50%;
+}
+.contact input[type="text"],.contact input[type="email"],textarea{
+display: block;
+margin-bottom: 25px;
+padding: 18px 35px;
+color: rgb(117, 117, 117);
+font-size: 16px;
+font-weight: 400;
+background-color: white;
+border: 0;
+width: 100%;
+}
+.social-links a{
+  margin-right: 25px; 
 }
